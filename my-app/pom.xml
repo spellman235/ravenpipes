@@ -19,25 +19,25 @@
   </properties>
   
   <repositories>
-        <repository>
-            <id>central</id>
-            <url>http://172.16.2.17/artifactory/jenkins-remote</url>
-        </repository>
-        <repository>
-            <id>default-central</id>
-            <url>http://172.16.2.17/artifactory/jenkins-remote</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>central</id>
-            <url>http://172.16.2.17/artifactory/jenkins-remote</url>
-        </pluginRepository>
-        <pluginRepository>
-            <id>default-central</id>
-            <url>http://172.16.2.17/artifactory/jenkins-remote</url>
-        </pluginRepository>
-    </pluginRepositories>
+    <repository>
+      <id>central</id>
+      <url>http://172.16.2.17/artifactory/jenkins-remote</url>
+    </repository>
+    <repository>
+      <id>default-central</id>
+      <url>http://172.16.2.17/artifactory/jenkins-remote</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>central</id>
+      <url>http://172.16.2.17/artifactory/jenkins-remote</url>
+    </pluginRepository>
+    <pluginRepository>
+      <id>default-central</id>
+      <url>http://172.16.2.17/artifactory/jenkins-remote</url>
+    </pluginRepository>
+  </pluginRepositories>
 
   <dependencies>
     <dependency>
@@ -51,12 +51,12 @@
       <artifactId>jackson-databind</artifactId>
       <version>2.9.0</version>
     </dependency>
-     <dependency>
-       <groupId>org.jenkins-ci.plugins</groupId>
-       <artifactId>jira-trigger</artifactId>
-       <version>1.0.0</version>
-       <type>jpi</type>
-     </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>jira-trigger</artifactId>
+      <version>1.0.0</version>
+      <type>jpi</type>
+    </dependency>
   </dependencies>
 
   <build>
