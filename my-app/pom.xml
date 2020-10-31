@@ -17,14 +17,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-  
-  <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>arty-snapshots</name>
-        <url>http://172.16.2.17:80/artifactory/libs-snapshot</url>
-    </snapshotRepository>
-  </distributionManagement>
+ 
   
   <repositories>
     <repository>
