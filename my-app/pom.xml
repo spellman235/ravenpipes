@@ -6,7 +6,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>d58f1c31-0ca35ae4</version>
+  <version>d58f1c31-0ca35ae5</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
@@ -57,7 +57,11 @@
     <artifactId>karate-core</artifactId>
     <version>0.9.9.RC2</version>
 </dependency>
-
+<dependency>
+    <groupId>com.mycompany.app</groupId>
+    <artifactId>my-app</artifactId>
+    <version>d58f1c31-0ca35ae4</version>
+</dependency>
   </dependencies>
 
   <build>
