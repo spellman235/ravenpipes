@@ -6,7 +6,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>d58f1c31-0ca35ae5</version>
+  <version>d58f1c31-0ca35ae4</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
@@ -22,21 +22,21 @@
   <repositories>
     <repository>
       <id>central</id>
-      <url>http://172.16.2.62:8081/artifactory/jcenter</url>
+      <url>http://172.16.2.63:8081/artifactory/jcenter</url>
     </repository>
     <repository>
       <id>default-central</id>
-      <url>http://172.16.2.62:8081/artifactory/jcenter</url>
+      <url>http://172.16.2.63:8081/artifactory/jcenter</url>
     </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
       <id>central</id>
-      <url>http://172.16.2.62:8081/artifactory/jcenter</url>
+      <url>http://172.16.2.63:8081/artifactory/jcenter</url>
     </pluginRepository>
     <pluginRepository>
       <id>default-central</id>
-      <url>http://172.16.2.62:8081/artifactory/jcenter</url>
+      <url>http://172.16.2.63:8081/artifactory/jcenter</url>
     </pluginRepository>
   </pluginRepositories>
 
@@ -57,11 +57,7 @@
     <artifactId>karate-core</artifactId>
     <version>0.9.9.RC2</version>
 </dependency>
-<dependency>
-    <groupId>com.mycompany.app</groupId>
-    <artifactId>my-app</artifactId>
-    <version>d58f1c31-0ca35ae4</version>
-</dependency>
+
   </dependencies>
 
   <build>
