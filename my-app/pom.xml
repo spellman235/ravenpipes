@@ -102,41 +102,7 @@
           <artifactId>maven-site-plugin</artifactId>
           <version>3.7.1</version>
         </plugin>
-	      
-	      
-	             <plugin>
-            <groupId>org.jfrog.buildinfo</groupId>
-            <artifactId>artifactory-maven-plugin</artifactId>
-            <version>3.2.3</version>
-            <inherited>false</inherited>
-            <executions>
-                <execution>
-                    <id>build-info</id>
-                    <goals>
-                        <goal>publish</goal>
-                    </goals>
-			 <configuration>
-                        <deployProperties>
-                            <gradle>awesome</gradle>
-                            <review.team>qa</review.team>
-                        </deployProperties>
-			<artifactory>
-				  <includeEnvVars>true/false</includeEnvVars>
-				`		</artifactory>
-                        <publisher>
-                            <contextUrl>https://oss.jfrog.org</contextUrl>
-                            <username>admin</username>
-                            <password>Password1</password>
-                            <repoKey>a-libs-release-local</repoKey>
-                            <snapshotRepoKey>a-libs-snapshot-local</snapshotRepoKey>
-				<publishArtifacts>true</publishArtifacts>
-				  <recordAllDependencies>true</recordAllDependencies>
-
-                        </publisher>
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
+	     
 	      
 	      
 	      
