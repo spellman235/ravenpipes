@@ -18,7 +18,26 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
  
-  
+    <repositories>
+    <repository>
+      <id>central</id>
+      <url>http://172.16.2.42:8081/artifactory/jcenter</url>
+    </repository>
+    <repository>
+      <id>default-central</id>
+      <url>http://172.16.2.42:8081/artifactory/jcenter</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>central</id>
+      <url>http://172.16.2.42:8081/artifactory/jcenter</url>
+    </pluginRepository>
+    <pluginRepository>
+      <id>default-central</id>
+      <url>http://172.16.2.42:8081/artifactory/jcenter</url>
+    </pluginRepository>
+  </pluginRepositories>
 
 
   <dependencies>
