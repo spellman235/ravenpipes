@@ -6,7 +6,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>1.3.0</version>
+  <version>1.2.0</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
@@ -21,21 +21,21 @@
     <repositories>
     <repository>
       <id>central</id>
-      <url>http://172.16.2.42:8081/artifactory/jcenter</url>
+      <url>http://172.16.2.42:8082/artifactory/jcenter</url>
     </repository>
     <repository>
       <id>default-central</id>
-      <url>http://172.16.2.42:8081/artifactory/jcenter</url>
+      <url>http://172.16.2.42:8082/artifactory/jcenter</url>
     </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
       <id>central</id>
-      <url>http://172.16.2.42:8081/artifactory/jcenter</url>
+      <url>http://172.16.2.42:8082/artifactory/jcenter</url>
     </pluginRepository>
     <pluginRepository>
       <id>default-central</id>
-      <url>http://172.16.2.42:8081/artifactory/jcenter</url>
+      <url>http://172.16.2.42:8082/artifactory/jcenter</url>
     </pluginRepository>
   </pluginRepositories>
 
